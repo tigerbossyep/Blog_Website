@@ -5,6 +5,7 @@ import Home from './Ui/Features/Home'
 import Card1 from './Card1'
 import Account from './Ui/Features/Account'
 import Blocks from './Ui/Features/Blocks'
+import Counter from './Ui/Features/Counter'
 
 
 const router  = createBrowserRouter ([{
@@ -15,7 +16,8 @@ const router  = createBrowserRouter ([{
     {index:true,element:<Home/>},
     {path: 'pages',element:<Card1/>},
     {path: 'Account', element:<Account/>},
-    {path: 'Blocks', element:<Blocks/>}
+    {path: 'Blocks', element:<Counter/>},
+   
 ]
 
 }])

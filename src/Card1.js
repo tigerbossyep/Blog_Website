@@ -44,7 +44,7 @@ const Card1=()=> {
           Friends
         </Typography>
         <Typography>
-         
+          
         </Typography>
       </CardBody>
       <CardFooter className="pt-0">
